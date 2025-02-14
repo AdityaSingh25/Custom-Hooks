@@ -1,2 +1,21 @@
 **What are hooks**  
 Hooks are a feature introduced in **React 16.8** that allow you to use state and other React features without writing a class. They are functions that let you "hook into" React state and lifecycle features from function components.
+
+
+
+
+
+
+***** Custom Hooks *****
+
+Hooks that you create yourself, so other people can use them are called custom hooks.
+
+A custom hook is effectively a function, but with the following properties -
+
+1. Uses another hook internally (useState, useEffect, another custom hook)
+2. Starts with use
+A few good examples of this can be:
+
+Data fetching hooks
+Browser functionality related hooks - useOnlineStatus, useWindowSize, useMousePosition
+Performance/Timer based - useInterval, useDebounce
